@@ -20,9 +20,7 @@ sum_g: int = 0
 avg_g = 0
 while True:
     grade1 = int(input("please enter the grade1:\n"));
-
     grade2 = int(input("please enter the grade2:\n"));
-
     grade3 = int(input("please enter the grade3:\n"));
     avg_g = (grade1 + grade2 + grade3) / 3
     if avg_g > 87 or grade1 == grade2 == grade3:
